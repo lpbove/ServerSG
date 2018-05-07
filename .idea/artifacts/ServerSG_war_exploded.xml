@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ServerSG:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ServerSG_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ServerSG/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ServerSG" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="bson-3.0.4" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/mongodb-driver-3.0.4.jar" />
+          <element id="library" level="project" name="mongodb-driver-core-3.0.4" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
